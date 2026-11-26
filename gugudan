@@ -1,0 +1,26 @@
+j=int(input("몇단을 입력할까요")
+for i in range(1,10):
+      print(i,"X",j,"=",i*j)
+  
+import turtle
+turtle.shape('turtle')
+import turtle as t
+
+# 스마일
+t.penup()
+t.fillcolor('yellow')
+t.begin_fill()
+t.circle(200)
+t.end_fill()
+t.goto(-50, 250)
+t.dot(30)
+t.goto(50, 250)
+t.dot(30)
+t.goto(-65, 125)
+t.right(60)
+i = 0
+while i < 32:
+    i+=1
+    t.dot(15)
+    t.forward(5)
+    t.left(4)
